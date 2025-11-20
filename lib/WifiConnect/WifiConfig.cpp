@@ -16,7 +16,7 @@ static IPAddress subnet  (255, 255, 255, 0);
 static IPAddress dns1    (1, 1, 1, 1);
 static IPAddress dns2    (8, 8, 8, 8);
 
-static const char* ESP_WIFI_NAME = "Desk #3";
+static const char* ESP_WIFI_NAME = "TemplateDevice"; // Nom du point d'accès ESP32
 
 const WifiConfig WIFI_CONFIG = {
   .ssid     = WIFI_SSID,

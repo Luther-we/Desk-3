@@ -1,7 +1,7 @@
 #include <ArduinoOTA.h>
 
 void setupOTA() {
-  ArduinoOTA.setHostname("desk2");
+  ArduinoOTA.setHostname("Template Device");
   ArduinoOTA
     .onStart([]() {
       Serial.println("[OTA] Start");
