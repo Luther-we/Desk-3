@@ -42,7 +42,7 @@ void mqttPublishDiscovery() {
     JsonObject dev = doc["device"].to<JsonObject>();
     dev["name"] = FRIENDLY_NAME;
     dev["mf"]   = "DIY";
-    dev["mdl"]  = "ESP32 C3 - Template Device";
+    dev["mdl"]  = "ESP32 C3 - Desk #3";
     JsonArray ids = dev["identifiers"].to<JsonArray>();
     ids.add(DEVICE_NAME);
 

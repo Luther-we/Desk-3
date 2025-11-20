@@ -24,7 +24,7 @@ void setup() {
   
   uint32_t t0 = millis();
   while (!Serial && millis() - t0 < 3000) { delay(10); }
-  Serial.println("\n[BOOT] Template Device");
+  Serial.println("\n[BOOT] Desk 3 starting...");
 
   wifiSetup(WIFI_CONFIG);
 mqttSetup();

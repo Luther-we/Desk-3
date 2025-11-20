@@ -19,8 +19,8 @@
 #endif
 
 // Identité
-const char* const DEVICE_NAME   = "TemplateDevice"; // utile pour id, sans espaces ni caractères spéciaux
-const char* const FRIENDLY_NAME = "Template device";
+const char* const DEVICE_NAME   = "desk3"; // utile pour id, sans espaces ni caractères spéciaux
+const char* const FRIENDLY_NAME = "Desk #3";
 
 // Topics
 // ---- A EDITER ----
