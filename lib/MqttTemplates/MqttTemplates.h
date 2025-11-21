@@ -4,7 +4,7 @@
 
 
 // Publie température + humidité sur les topics capteurs
-void mqttPublishDht(float temperature);
+void mqttPublishSht(float temperature, float humidity);
 
 // Publie la discovery Home Assistant (light + temp + hum)
 void mqttPublishDiscovery();

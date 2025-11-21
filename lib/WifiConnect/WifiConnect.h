@@ -1,13 +1,23 @@
 #pragma once
 #include <Arduino.h>
 #include <WiFi.h>
-#include "WifiConfig.h" 
+#include "ProjectConfig.h"
 
-// À appeler dans setup()
+struct WifiConfig {
+  const char* ssid;
+  const char* password;
+  IPAddress   localIP;
+  IPAddress   gateway;
+  IPAddress   subnet;
+  IPAddress   dns1;
+  IPAddress   dns2;
+  const char* hostname;
+};
+
 void wifiSetup(const WifiConfig& cfg);
 
-// À appeler dans loop()
+
 void wifiLoop();
 
-// Pour savoir si on est connecté
+
 bool wifiIsConnected();
